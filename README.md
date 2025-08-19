@@ -6,7 +6,8 @@ CLI (terminal arayüzü) - Harici API ile veri zenginleştirme (OpenLibrary) - F
 - **OOP mimarisi**: Book, EBook, AudioBook, Member, Library.
 - **Kalıcı veri**: library.json, members.json (JSON dosyaları).
 - **ISBN ile otomatik ekleme**: OpenLibrary API (httpx).
-- **CLI**: kitap/üye ekleme, listeleme, silme, ödünç verme–iade.
+- **CLI (terminal menüsü)**: kitap/üye ekleme, listeleme, silme, ödünç verme–iade.
+- **Colorama**: CLI (terminal menüsü) "Colorama" ile desteklendi.
 - **REST API (FastAPI)**: Kitap işlemleri (JSON).
 - **Testler (pytest)**: Aşama 1–2–3’ün minimum kriterleri kapsanır.
 
@@ -109,10 +110,10 @@ Kitabı siler. Başarılı durumda **204 No Content** veya **200 OK** dönebilir
 - ```bash
   pytest -q
 ### Kapsam:
-- Aşama 1 (OOP & CLI temeli): `Library`/`Book` temel akışları
-- Aşama 2 (Harici API): `OpenLibraryClient` ve `add_book_by_isbn`
+- **Aşama 1 (OOP & CLI temeli)**: `Library`/`Book` temel akışları
+- **Aşama 2 (Harici API)**: `OpenLibraryClient` ve `add_book_by_isbn`
   - Başarılı + "bulunamadı" (monkeypatch ile)
-- Aşama 3 (API): `GET/POST/DELETE /books`, `POST /books/isbn/{isbn}`
+- **Aşama 3 (API)**: `GET/POST/DELETE /books`, `POST /books/isbn/{isbn}`
 - `tests/conftest.py` import yollarını proje köküne sabitler
 - `pytest.ini`:
   ```ini
