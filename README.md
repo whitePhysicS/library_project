@@ -17,14 +17,13 @@ CLI (terminal arayüzü) - Harici API ile veri zenginleştirme (OpenLibrary) - F
 - **pip**
 
 ## Sanal ortam (venv) kullanılması şiddetle tavsiye edilir.
-### **Kullanım:**
+## 🛠 Kurulum
 `python -m venv .venv`
 ### - Windows
 - .venv\Scripts\activate
 ### - macOS/Linux
 - source .venv/bin/activate
 
-## 🛠 Kurulum
 - `pip install -r requirements.txt`
 
 # ▶ Nasıl Çalıştırılır
