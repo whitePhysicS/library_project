@@ -81,7 +81,7 @@ AudioBook örneği:
   "duration_in_minutes": 75
 }
 ```
-### **POST** `/books/isbn/{isbn}`
+### - **POST** `/books/isbn/{isbn}`
 OpenLibrary'den başlık/yazar/sayfa sayısı çekerek kitap ekler.
 İsteğe bağlı sorgu parametreleri:
 - `kind`: `book|ebook|audiobook` (varsayılan `book`)
@@ -90,14 +90,68 @@ OpenLibrary'den başlık/yazar/sayfa sayısı çekerek kitap ekler.
 - ```bash
   curl -X Post "http://127.0.0.1:8000/books/isbn/9780140328721?kind=book"
 
-### **DELETE** `/books/{isbn}
+### - **DELETE** `/books/{isbn}
 Kitabı siler. Başarılı durumda **204 No Content** veya **200 OK** dönebilir.
 
 - ```bash
   curl -X DELETE http://127.0.0.1:8000/books/9780132350884
 
 ## 💾 Veri Saklama (Önemli)
-- `library.json` ve `members.json` **varsayılan olarak** `library.py` **dosyasının bulunduğu dizinde** tutulur
+- `library.json` ve `members.json` **varsayılan olarak** `library.py` **dosyasının bulunduğu dizinde** tutulur.
+- CLI'yi farklı klasörden çalıştırsanız da dosyalar proje klasöründe oluşur.
+- Farklı bir konuma yazmak için:
+- ```python
+  from pathlib import Path
+  lib = Library(name="MyLib", base_dir=Path("C:/data"))
+
+# ✅ Testler
+## Çalıştırma:
+- ```bash
+  pytest -q
+### Kapsam:
+- Aşama 1 (OOP & CLI temeli): `Library`/`Book` temel akışları
+- Aşama 2 (Harici API): `OpenLibraryClient` ve `add_book_by_isbn`
+  - Başarılı + "bulunamadı" (monkeypatch ile)
+- Aşama 3 (API): `GET/POST/DELETE /books`, `POST /books/isbn/{isbn}`
+- `tests/conftest.py` import yollarını proje köküne sabitler
+- `pytest.ini`:
+  ```ini
+  [pytest]
+  testpaths = tests
+  python_files = test_*.py
+  addopts = -ra -q
+# 📁 Dizin Yapısı
+```text
+library_project/
+  api.py
+  external.py
+  library.py
+  main.py
+  library.json
+  members.json
+  requirements.txt
+  pytest.ini
+  tests/
+    conftest.py
+    test_api.py
+    test_external.py
+    test_external_extra.py
+    test_library.py
+    test_library_extra.py
+```
+# 🔮 Geliştirme Fikirleri
+- Arama/filtre (`GET /books?title=&author=&kind=`), sayfalama
+- CORS (frontend entegrasyonu)
+- SQLite/PostgreSQL (JSON yerine DB)
+- Kimlik doğrulama (JWT), rol tabanlı yetki
+- Dockerize
+
+
+
+
+
+    
+
 
 
 
