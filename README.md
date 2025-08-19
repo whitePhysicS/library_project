@@ -23,8 +23,8 @@ CLI (terminal arayüzü) - Harici API ile veri zenginleştirme (OpenLibrary) - F
 - .venv\Scripts\activate
 ### - macOS/Linux
 - source .venv/bin/activate
-
-- `pip install -r requirements.txt`
+  
+`pip install -r requirements.txt`
 
 # ▶ Nasıl Çalıştırılır
 
