@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Yorick",
+    "member_id": 316269,
+    "borrowed_isbns": [
+      "9789752430792",
+      "9786052996799"
+    ]
+  },
+  {
+    "name": "Wit",
+    "member_id": 316962,
+    "borrowed_isbns": []
+  },
+  {
+    "name": "menisua",
+    "member_id": 121022,
+    "borrowed_isbns": [
+      "9786057635402"
+    ]
+  },
+  {
+    "name": "GarroshCan",
+    "member_id": 383831,
+    "borrowed_isbns": [
+      "9789752430297"
+    ]
+  },
+  {
+    "name": "kyzaghanir",
+    "member_id": 693162,
+    "borrowed_isbns": []
+  },
+  {
+    "name": "Bug",
+    "member_id": 331162,
+    "borrowed_isbns": []
+  }
+]

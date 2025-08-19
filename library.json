@@ -1,0 +1,188 @@
+[
+  {
+    "type": "EBook",
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "978-0451524935",
+    "page_count": 319,
+    "file_format": "EPUB",
+    "is_borrowed": false
+  },
+  {
+    "type": "AudioBook",
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "isbn": "978-1524763138",
+    "page_count": 512,
+    "duration": 780,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "isbn": "978-0618640157",
+    "page_count": 496,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Les Miserables",
+    "author": "Victor Hugo",
+    "isbn": "978-0451419439",
+    "page_count": 1488,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Fantastic Mr. Fox",
+    "author": "Roald Dahl",
+    "isbn": "9780140328721",
+    "page_count": 96,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Mustafa Kemal",
+    "author": "Yılmaz Özdil",
+    "isbn": "9786052983690",
+    "page_count": 520,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Crime and Punishment (Signet Classics)",
+    "author": "Фёдор Михайлович Достоевский",
+    "isbn": "9780451530066",
+    "page_count": 536,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Suç ve Ceza",
+    "author": "Фёдор Михайлович Достоевский",
+    "isbn": "9789754589023",
+    "page_count": 704,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "İnsanın Anlam Arayışı",
+    "author": "Viktor E. Frankl",
+    "isbn": "9786054054206",
+    "page_count": 166,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Od",
+    "author": "İskender Pala",
+    "isbn": "9786054322763",
+    "page_count": 359,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Mein Kampf",
+    "author": "Adolf Hitler",
+    "isbn": "9786051808352",
+    "page_count": 592,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Nutuk",
+    "author": "Mustafa Kemal Atatürk",
+    "isbn": "9789944888349",
+    "page_count": 616,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Gazi Mustafa Kemal Atatürk",
+    "author": "İlber Ortaylı",
+    "isbn": "9789752430297",
+    "page_count": 480,
+    "is_borrowed": true
+  },
+  {
+    "type": "Book",
+    "title": "Metro 2033",
+    "author": "Dmitry Glukhovsky",
+    "isbn": "9780575086258",
+    "page_count": 464,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Metro 2034",
+    "author": "Dmitrij Glukhovskij",
+    "isbn": "9785171144265",
+    "page_count": 0,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "METRO 2035. English language edition.",
+    "author": "Дмитрий Глуховский",
+    "isbn": "9781539930723",
+    "page_count": 502,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Küçük Prens",
+    "author": "Antoine De SaintExupery",
+    "isbn": "9789750724435",
+    "page_count": 112,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Ateşten Gömlek",
+    "author": "Halide Edib Adıvar",
+    "isbn": "9789750723322",
+    "page_count": 256,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Beyaz Geceler; Bir Hayalperestin Anilarindan",
+    "author": "Фёдор Михайлович Достоевский",
+    "isbn": "9789750739507",
+    "page_count": 96,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Sultanın Casusları",
+    "author": "Emrah Safa Gürkan",
+    "isbn": "9789752430006",
+    "page_count": 320,
+    "is_borrowed": false
+  },
+  {
+    "type": "Book",
+    "title": "Sultanın Korsanları",
+    "author": "Emrah Safa Gürkan",
+    "isbn": "9789752430792",
+    "page_count": 592,
+    "is_borrowed": true
+  },
+  {
+    "type": "Book",
+    "title": "Bunu Herkes Bilir Tarihteki Yanlis Sorulara Dogru Cevaplar",
+    "author": "Emrah Safa Gürkan",
+    "isbn": "9786057635402",
+    "page_count": 304,
+    "is_borrowed": true
+  },
+  {
+    "type": "Book",
+    "title": "Kızıl Kraliçe Serisi Kutulu Özel Set",
+    "author": "Victoria Aveyard",
+    "isbn": "9786052996799",
+    "page_count": 2216,
+    "is_borrowed": true
+  }
+]
