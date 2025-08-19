@@ -16,10 +16,10 @@ CLI (terminal arayüzü) - Harici API ile veri zenginleştirme (OpenLibrary) - F
 - **pip**
 
 ## Sanal ortam (venv) kullanılması şiddetle tavsiye edilir.
-## **Kullanım Örnekleri:**
+### **Kullanım Örnekleri:**
 python -m venv .venv
-## Windows
+### Windows
 .venv\Scripts\activate
-## macOS/Linux
+### macOS/Linux
 source .venv/bin/activate
 
