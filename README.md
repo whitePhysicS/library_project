@@ -1,4 +1,4 @@
-## Library Project
+# Library Project
 Python 202 Bootcamp projesi kapsamında geliştirilen Kütüphane Yönetim Sistemidir.
 CLI (terminal arayüzü) - Harici API ile veri zenginleştirme (OpenLibrary) - FastAPI tabanlı REST API aşamalarını içerir.
 
@@ -15,11 +15,11 @@ CLI (terminal arayüzü) - Harici API ile veri zenginleştirme (OpenLibrary) - F
 - **Python 3.11+**
 - **pip**
 
-# Sanal ortam (venv) kullanılması şiddetle tavsiye edilir.
-# **Kullanım Örnekleri:**
+## Sanal ortam (venv) kullanılması şiddetle tavsiye edilir.
+## **Kullanım Örnekleri:**
 python -m venv .venv
-# Windows
+## Windows
 .venv\Scripts\activate
-# macOS/Linux
+## macOS/Linux
 source .venv/bin/activate
 
